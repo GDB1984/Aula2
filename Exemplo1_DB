@@ -1,0 +1,14 @@
+CREATE TABLE alunos (
+  id INT PRIMARY KEY,
+  nome VARCHAR(100),
+  nota DECIMAL (4,2)
+);
+
+INSERT INTO alunos VALUES
+(1, 'Ana', 8.5),
+(2, 'Carlos', 7.0),
+(3, 'Pedro', 9.2), 
+(4, 'Matheus', 9.0),
+(5, 'Guilherme', 6.99);
+
+https://sqlfiddle.com/mysql/online-compiler?id=200d5d62-9300-440a-bd94-facc6816a7d4
